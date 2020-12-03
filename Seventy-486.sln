@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpForum.Tests", "HelpForum.Tests\HelpForum.Tests.csproj", "{F0C961D8-4563-4609-B85F-0F3C62123200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpForum", "HelpForum\HelpForum.csproj", "{724C8254-9591-40C7-8616-8DCF8376798A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0C961D8-4563-4609-B85F-0F3C62123200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C961D8-4563-4609-B85F-0F3C62123200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C961D8-4563-4609-B85F-0F3C62123200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C961D8-4563-4609-B85F-0F3C62123200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724C8254-9591-40C7-8616-8DCF8376798A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724C8254-9591-40C7-8616-8DCF8376798A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724C8254-9591-40C7-8616-8DCF8376798A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724C8254-9591-40C7-8616-8DCF8376798A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using HelpForum.Models;
+using System.Web.Services.Description;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace HelpForum
 {
@@ -64,5 +66,7 @@ namespace HelpForum
             //    ClientSecret = ""
             //});
         }
+
+
     }
 }
